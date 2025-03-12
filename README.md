@@ -39,15 +39,21 @@ Scaled features using MinMaxScaler.
 Split the data into 80% training and 20% testing sets.
 
 ## 4. Model Building
-Logistic Regression: Achieved an accuracy of 73.9644%.
-K-Nearest Neighbors (KNN): Best accuracy of 74.55% with k=3.
-Support Vector Machine (SVM): Achieved an accuracy of 49.11%.
-Naive Bayes:
-Categorical NB: 78.10% accuracy.
-Gaussian NB: 71.05% accuracy.
-Decision Tree: Best accuracy of 81.65% with max_leaf_nodes=10.
-Random Forest: Best accuracy of 84.61% with max_leaf_nodes=20.
-Gradient Boosting: Achieved the highest accuracy of 82.84% with optimized hyperparameters.
+- **Logistic Regression:**
+Accuracy: 73.96%
+- **K-Nearest Neighbors (KNN):**
+Best Accuracy: 74.55% (with k=3)
+- **Support Vector Machine (SVM):**
+Accuracy: 49.11%
+- **Naive Bayes:**
+Categorical NB: 78.10% accuracy
+Gaussian NB: 71.05% accuracy
+- **Decision Tree:**
+Best Accuracy: 81.65% (with max_leaf_nodes=10)
+- **Random Forest:**
+Best Accuracy: 84.61% (with max_leaf_nodes=20)
+- **Gradient Boosting:**
+Highest Accuracy: 82.84% (with optimized hyperparameters)
 
 ## Key Findings
 The Random Forest model performed the best with an accuracy of 84.61%.
